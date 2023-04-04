@@ -1,0 +1,20 @@
+{
+  "name": "nft-auth-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "ethers": "^6.2.3",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  }
+}
