@@ -25,3 +25,9 @@ yarn dev
 cd client
 yarn dev
 ```
+# Problems
+### IP and Pubkey matching problem
+The vpn server can know the IP address and wallet address of the connector, which can reveal a lot!  
+If the dht knows this info for rate-limiting purposes then it is worse.
+### DNS records problem
+The vpn server knows the URLS for the https connections, also when and how frequently the client accesses them. Privacy concern between VPN server and client!
